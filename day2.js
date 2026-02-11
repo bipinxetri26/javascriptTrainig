@@ -51,7 +51,14 @@
 
 //write a program to convert the degree celsius to degree fahrenheit [celsius*(9/5)+35]
 
-const celsius=30
-const fahrenheit=(celsius*(9/5)+32)
-console.log("The" +celsius+ "degree" + "is equal to" +fahrenheit+ "fahrenheit")
+// const celsius=30
+// const fahrenheit=(celsius*(9/5)+32)
+// console.log("The" +celsius+ "degree" + "is equal to" +fahrenheit+ "fahrenheit")   
+
+
+const weight=30 
+const height=1.8
+const bmi=(weight/(height*height))
+ console.log(" The " + height + " height " + " and " + weight + " weight " +"of body bmi is " +bmi)
+// console.log("the bmi of body is " +bmi)
 
