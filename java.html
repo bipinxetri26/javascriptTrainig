@@ -20,12 +20,35 @@
 // var sum = num1 +num2 
 // // document.writeln(sum)
 // document.writeln(num1 + num2)
+// const a=25
+// var weight = (prompt("Enter weight"))
+// var height = (prompt("Enter height"))
 
-var weight = (prompt("Enter weight"))
-var height = (prompt("Enter height"))
+// var bmi= (weight/(height*height))
+// document.writeln(bmi)
 
-var bmi= (weight/(height*height))
-document.writeln(bmi)
+
+let age= prompt("Enter the age");
+age= Number(age);
+
+if (age<13) {
+     document.writeln("He/She is child")
+}
+else if(age>=13 && age<+19){
+    document.writeln("He/She is teenager")
+}
+else if(age>19 && age<=59){
+    document.writeln("He/She is adult")
+}
+else if(age>=60){
+     document.writeln("He/She is senior citizen")
+}
+else{
+    console.log("invalid age");
+}
+
+
+
 </script>
 </body>
 </html>
