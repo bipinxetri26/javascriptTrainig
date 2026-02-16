@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head1"></h1>
+    <button onclick="changeContent()">Load Content</button>
+    <button onclick="removeContent()">Remove Content</button>
+
+
+
+    <script>
+        function changeContent(){
+            let HeadingContent = document.getElementById("head1")
+            HeadingContent.innerHTML = "Change Content after click event"
+        }
+
+        function removeContent(){
+            document.getElementById("head1").innerHTML = ""
+        }
+        
+        
+        //innerHtml object can be used to change the content fromats using html tags along with the contents.
+        //whereas innerText only allows to input content to the particular element.
+        // let head1 = document.getElementById("head1").innerHTML = "<b>Hello world</b>"
+        // document.getElementById("head1").innerText = "<br>Hello world</br>"  
+        
+    </script>
+
+</body>
+</html>
