@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="bb">
+        <!-- <label for="text"> Enter your name</label>
+        <input type="your name" placeholder="name"> -->
+
+        Num1:
+        <input type="number" id="num1"><br>
+        Num2: 
+        <input type="number" id="num2"><br>
+        Num3:
+        <input type="Number"id="num3"><br>
+        <button type="button" onclick="subNum()">Sub</button><br>
+        <button type="button" onclick="addNum()"> Add</button>
+        <p id="result"></p>
+        <p id="value"></p>
+    </form>
+
+    <script>
+        // function addNum(){
+        //     let num1 = document.getElementById("num1").value
+        //     let num2 = document.getElementById("num2").value
+        //     let sum = Number(num1) + Number(num2)
+        //     document.getElementById("result").innerHTML = "sum:" + sum
+        // }
+
+        // function subNum(){
+        //     let num3 = document.getElementById("num3").value
+        //     let num2 = document.getElementById("num2").value
+        //     let sub = Number(num3) - Number(num2)
+        //     document.getElementById("value").innerHTML = "sub:" + sub
+        // }
+        
+        let num1 = document.getElementById("num1")
+        let num2 = document.getElementById("num2")
+        let num3 = document.getElementById("num3")
+        function addNum(){
+            let sum = Number(num1.value) + Number(num2.value)
+            document.getElementById("result").innerHTML = "sum:" + sum
+        }
+
+        function subNum(){
+           let sub = Number(num3.value) - Number(num2.value)- Number(num1.value)
+           document.getElementById("value").innerHTML = "sub:" + sub
+        }
+
+    </script>
+</body>
+</html>
