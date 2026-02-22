@@ -9,7 +9,7 @@ console.log(arr.sort())  //arrange ascending order
 // console.log(arr.pop())  //exit last word or letter 
 // console.log(arr.shift(3.5))
 // arr.unshift("ramlal")  // put value or word in 1st
-console.log(arr.at(4))
+console.log(arr.at(4))  //display specific position value only
 console.log(arr);
 
 
